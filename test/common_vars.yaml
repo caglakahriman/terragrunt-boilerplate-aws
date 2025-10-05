@@ -1,0 +1,11 @@
+# These variables are here to use dynamically within Terragrunt configuration files:
+# e.g for resource naming and tagging
+
+project: "companyName"
+environment: "test"
+aws_account_id: "xxxxx"
+
+tags:
+  department: "xxx"
+  environment: "TEST"
+  #other tags you would like to add like "costProject"
